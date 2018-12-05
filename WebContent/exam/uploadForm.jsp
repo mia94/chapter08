@@ -8,7 +8,7 @@
 		text-align: left;
 	}
 	label {
-		
+		width:100px;
 	}
 </style>
 

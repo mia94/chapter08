@@ -6,7 +6,10 @@
 		margin: 0 auto;
 	}
 	#board_wrap fieldset {
-		
+		width: 500px;
+		margin-left: 230px;
+		padding: 20px;
+		text-align: left;
 	}
 </style>
 <div id="board_wrap">
