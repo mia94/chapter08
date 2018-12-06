@@ -10,5 +10,5 @@
 
 	boardMgr.addBoard(board);
 
-	response.sendRedirect("boardList.jsp");
+	response.sendRedirect("template.jsp?section=boardList.jsp");
 %>

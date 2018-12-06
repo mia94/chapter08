@@ -14,6 +14,14 @@
 		text-align: center;
 	}
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(function(){
+		$("#btnWrite").click(function(){
+			location.href = "template.jsp?section=boardForm.jsp"
+		})
+	})
+</script>
 	<div id="board_wrap"> 
 		<h1>°Ô½ÃÆÇ</h1>
 		<div id="btn">

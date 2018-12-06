@@ -42,7 +42,7 @@
 			<li><a href="template.jsp?section=home.jsp">HOME  | </a></li>
 			<li><a href="template.jsp?section=movieList.jsp">  상영영화   |  </a></li>
 			<li><a href="template.jsp?section=timeList.jsp">  상영시간표   |  </a></li>
-			<li><a href="#">  게시판</a></li>
+			<li><a href="template.jsp?section=boardList.jsp">  게시판</a></li>
 		</ul> 
 	</nav>
 </header>
