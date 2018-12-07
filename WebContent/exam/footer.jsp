@@ -11,9 +11,11 @@
 	}
 	footer p{
 		margin: 10px;
+		font-style: italic;
+		font-size: 12px;
 	}
 	footer p:FIRST-CHILD {
-		padding-top: 15px;
+		padding-top: 30px;
 	}
 	footer p:LAST-CHILD {
 		font-style: italic;

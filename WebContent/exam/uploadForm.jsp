@@ -6,6 +6,7 @@
 		margin-left: 230px;
 		padding: 20px;
 		text-align: left;
+		font-family: 'Noto Sans KR';
 	}
 	label {
 		width:100px;

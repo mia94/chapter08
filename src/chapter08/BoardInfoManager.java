@@ -22,4 +22,8 @@ public class BoardInfoManager {
 	public void clearAll(){
 		array.clear();
 	}
+	
+	public void remove(int index){
+		array.remove(index);
+	}
 }

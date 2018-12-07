@@ -6,15 +6,17 @@
 
 <style>
 	#timeList_wrap{
-		width:850px;
-		margin: 0 auto;
-		padding: 10px;
+		width:600px;
+		margin:0 auto;
+		text-align: center;
 	}
 	#timeList_wrap h1{
 		height: 30px;
+		font-family: 'Jua'
 	}
 	#timeList_wrap table{
-		width:800px;
+		width:600px;
+		margin:20px auto;
 		border-collapse: collapse;
 	}
 	#timeList_wrap th, td{

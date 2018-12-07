@@ -7,9 +7,10 @@
 	}
 	#board_wrap fieldset {
 		width: 500px;
-		margin-left: 230px;
+		margin:0 auto;
 		padding: 20px;
 		text-align: left;
+		font-family: 'Noto Sans KR';
 	}
 </style>
 <div id="board_wrap">

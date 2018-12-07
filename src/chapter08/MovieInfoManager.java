@@ -15,8 +15,8 @@ public class MovieInfoManager {
 		array.add(info);
 	}
 	
-	public void delMovie(){
-		array.clear();
+	public void delMovie(int index){
+		array.remove(index);
 	}
 	
 	public ArrayList<MovieInfo> getMovieList(){

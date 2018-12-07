@@ -27,7 +27,8 @@
 		right: 0px;
 		top:-20px;
 		text-decoration: none;
-		color:black;
+		font-size:12px;
+		color:#003399;
 	}
 </style>
 
@@ -36,6 +37,7 @@
 	$(function(){
 		$("article").click(function(){
 			var index = $(this).attr("data-index");
+			console.log(index);
 			location.href = "template.jsp?section=movieDetail.jsp&index="+index;
 		})
 	})
@@ -48,7 +50,7 @@
 
 	for(int i=0;i<array.size();i++){
 		MovieInfo info = array.get(i);
-		out.println("<article>");
+		out.println("<article data-index='"+i+"'>");
 		out.println("<img src='images/"+ info.getPoster() +"'>");
 		out.println("<p>"+ info.getName()+"</p>");
 		out.println("</article>");

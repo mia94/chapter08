@@ -6,6 +6,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
+@import url('https://fonts.googleapis.com/css?family=Bungee|Jua');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 	*{
 		padding: 0;
 		margin: 0;
@@ -17,7 +19,6 @@
 	section{
 		margin:30px auto;
 		width:100%;
-		text-align: center;
 	}
 </style>
 </head>
